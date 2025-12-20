@@ -2,10 +2,10 @@
 
 
 a = Analysis(
-    ['C:\\Carpeta_local\\Arbol_lma\\arbol.py'],
+    ['arbol.py'],
     pathex=[],
     binaries=[],
-    datas=[],
+    datas=[('arbol-verde.ico', '.')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
@@ -35,4 +35,5 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
+    icon=['arbol-verde.ico'],
 )
